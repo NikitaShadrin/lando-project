@@ -3,6 +3,7 @@ import Header from '../app/components/Header'
 import AnimatedSection from '../app/components/AnimatedSection'
 import { motion } from 'framer-motion'
 import { CheckIcon, SparklesIcon, CurrencyDollarIcon, GlobeAltIcon } from '@heroicons/react/24/outline'
+import Testimonials from './components/Testimonials'
 
 export default function Home() {
   return (
@@ -63,8 +64,12 @@ export default function Home() {
           </div>
         </AnimatedSection>
 
+        <Testimonials>
+          
+        </Testimonials>
+
         {/* Pricing Section */}
-        <AnimatedSection className="py-20 bg-white/50 backdrop-blur-sm" id="pricing">
+        <AnimatedSection className="py-20" id="pricing">
           <h2 className="text-4xl font-bold text-center mb-16">Pricing</h2>
           
           <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
