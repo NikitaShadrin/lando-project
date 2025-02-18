@@ -39,7 +39,7 @@ A while ago, when only starting to work with JavaScript and React I made a mock 
 
 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/landing-page.git
+git clone https://github.com/NikitaShadrin/lando-project
 ```
 2. Install dependencies
 ```bash
